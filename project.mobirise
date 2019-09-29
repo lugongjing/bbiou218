@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.4",
     "siteFonts": [],
-    "uniqCompNum": 74,
+    "uniqCompNum": 78,
     "versionPublish": "4.10.10",
     "screenshot": "screenshot.png"
   },
@@ -38,14 +38,14 @@
             "slides": [
               {
                 "image": "images/slide1.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "卢功靖",
                 "contentAlign": "right",
-                "text": "我是华中科技大学新闻专业大四的学生，即将进入南京大学进行硕士阶段的学习。未来研究兴趣是计算传播学。",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page1.html#header3-n\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">点击了解更多的我</a>  "
+                "text": "我是南京大学研究生一年级的学生，所学专业是新闻学，未来研究兴趣是计算传播学。",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page1.html#header3-n\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">点击了解更多的我</a>    "
               },
               {
                 "image": "images/slide2.jpg",
@@ -60,7 +60,7 @@
               },
               {
                 "image": "images/slide3.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -155,14 +155,14 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
@@ -170,7 +170,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Page 1",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -197,7 +197,7 @@
           "_styles": {
             ".mbr-header__text": {
               "color": "#000000",
-              "text-align": "right",
+              "text-align": "center",
               "font-size": "36px"
             },
             ".mbr-header__subtext": {
@@ -207,7 +207,7 @@
               "color": "#000000"
             },
             ".mbr-article P": {
-              "text-align": "right"
+              "text-align": "center"
             }
           },
           "_params": {
@@ -216,9 +216,9 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "imageSize": "29",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/20190918081804-305x188.png",
             "parallax": true,
@@ -232,7 +232,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "headerAlign": "right",
+          "headerAlign": "center",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -389,7 +389,7 @@
             "showText": true,
             "showButton": false,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -415,6 +415,29 @@
           "_anchor": "msg-box3-v"
         },
         {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "所获荣誉",
+          "meta": "<span style=\"font-style: normal;\">·校优秀学生干部<br>\n<br>·三好学生<br>\n<br>·第六届范敬宜新闻奖学子奖</span><br>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-24",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "18px"
+            },
+            "P": {
+              "color": "#000000",
+              "text-align": "left"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center"
@@ -432,8 +455,8 @@
             "showCaption": "noCaption",
             "showText": true,
             "showButton": true,
-            "paddingTop": "2",
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "3",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -484,14 +507,14 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
@@ -499,7 +522,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "校外实践经验",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -586,7 +609,7 @@
             }
           },
           "title": "实习经历",
-          "text": "<p>为了打牢了新闻传播理论基础，在把校园新闻做扎实了之后，我先后在新京报社会部、长江日报经济部、楚天都市报实习，在媒体发表总计15万字新闻作品。此外我参与了本校的新闻评论特色班，在学习的过程中尝试社会评论，并先后在澎湃新闻网、红辣椒网、荆楚网等发表20余篇评论，其中一篇新闻评论被人民网所转载。在新京报社会部独立采访并协助老师完成了75篇稿件，有8篇深度报道刊登在新京报头版。其中不乏每日热点新闻和深度调查报道，并有多篇获报社总编辑奖。\n</p><p>\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 坚持在媒体实习中，我还成为了暑期支教协会的一员。7月，我与16队友一起来到粤北县城进行支教与调研，教授二年级学生英语以及广播体操课程。在此期间，通过教授课程，深入留守儿童群体，又与校长老师以及学生家长进行对话访谈。返校后，为建立支教长效机制，我们又为该小学建立了“书香角”，并与孩子们寄信持续性沟通。</p>",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;为了打牢了新闻传播理论基础，在把校园新闻做扎实了之后，我先后在新京报社会部、长江日报经济部、楚天都市报实习，在媒体发表总计15万字新闻作品。此外我参与了本校的新闻评论特色班，在学习的过程中尝试社会评论，并先后在澎湃新闻网、红辣椒网、荆楚网等发表20余篇评论，其中一篇新闻评论被人民网所转载。在新京报社会部独立采访并协助老师完成了75篇稿件，有8篇深度报道刊登在新京报头版。其中不乏每日热点新闻和深度调查报道，并有多篇获报社总编辑奖。\n</p><p>\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 坚持在媒体实习中，我还成为了暑期支教协会的一员。7月，我与16队友一起来到粤北县城进行支教与调研，教授二年级学生英语以及广播体操课程。在此期间，通过教授课程，深入留守儿童群体，又与校长老师以及学生家长进行对话访谈。返校后，为建立支教长效机制，我们又为该小学建立了“书香角”，并与孩子们寄信持续性沟通。</p>",
           "_tags": [
             "主题"
           ],
@@ -754,14 +777,14 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
@@ -769,7 +792,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "校内学生工作",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -960,7 +983,12 @@
             "主题"
           ],
           "_name": "features1",
-          "_anchor": "features1-1e"
+          "_anchor": "features1-1e",
+          "_styles": {
+            ".mbr-section__col .mbr-header__text": {
+              "font-size": "18px"
+            }
+          }
         },
         {
           "_styles": {
@@ -969,6 +997,9 @@
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center"
+            },
+            ".mbr-article": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -977,8 +1008,8 @@
             "showCaption": "noCaption",
             "showText": true,
             "showButton": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -995,7 +1026,7 @@
           },
           "title": "知是行之始 行是知之成",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>学新闻的我们不仅要有敏锐的新闻直觉，更要有开拓的事业和扎实的背景知识。无论如何，永远保持一颗求知的心吧！</p>",
+          "text": "<p><b>学新闻的我们不仅要有敏锐的新闻直觉，更要有开拓的事业和扎实的背景知识。无论如何，永远保持一颗求知的心吧！</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KEEP MOVING</a>",
           "_tags": [
             "主题"
@@ -1029,14 +1060,14 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
@@ -1044,7 +1075,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "学习经历",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1076,7 +1107,7 @@
             "overlayOpacity": 0.5
           },
           "title": "学习经历",
-          "text": "学到头秃！",
+          "text": "知者行之始，行者知之成",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>",
           "_tags": [
             "主题"
@@ -1165,22 +1196,22 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
     "page5.html": {
       "settings": {
         "meta_descr": "Site Builder Description",
-        "title": "Page 5",
-        "order": 2
+        "title": "科研经历",
+        "order": 3
       },
       "components": [
         {
@@ -1212,7 +1243,7 @@
             "overlayOpacity": 0.5
           },
           "title": "科研尝试",
-          "text": "努力加油！",
+          "text": "承认无知，多多思考，努力加油！",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>",
           "_tags": [
             "主题"
@@ -1298,14 +1329,14 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
         }
       ]
     },
@@ -1313,7 +1344,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "中秋小组会感想",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1367,7 +1398,7 @@
           }
         },
         {
-          "text": "<p><b>人工智能与大数据\n</b></p><p>那天我们谈到人工智能也谈到了《未来简史》，此前是粗读，这次又重拿书本细读一翻。我们在咖啡会中谈到一个结论，“机器可以更好地帮我们做选择。”这句话是正确的吗？我试问自己。机器可以替我们做更好的选择/更了解我们自己，可机器又是基于什么呢？是基于理性的分析，亦或是我日常生活的轨迹和大数据，由此来替我做更好地选择。机器决策与古时候的求神问卦/占卜似乎有异曲同工之妙，都在祈求一个神秘力量（在这里我姑且理解机器决策为一个黑箱般的神秘力量）替我们做出最好的决策。但问题是，我们真的能百分百完完全全相信黑箱的神秘魔力吗？机器无法理解人类的情绪不稳定性（应该是）。人类有感情有情绪，如果排除了这些因素外，机器能不能做出准确的判断。换句话而言，排除了感情因素，我们的决策就会更好吗？\n</p><p>当然我们咖啡会上一个很有意思的讨论点就是，机器会不会取代人类？我觉得这个问题很荒谬很神奇(也许也是我太navie了）。我们会担心机器会取代人类，要征服地球，害怕人类对机器不利（这难道不是一种人类的心理吗？）机器没有感情，就没有野心，机器没有情绪，就不会害怕不会怕欺负，那为什么要害怕，要取代人类呢？没有情感与情绪，就没有动机，哪怕再聪明。这些都是我们人类心理在机器中的投射罢了。\n</p><p>最后，在重温未来简史中对于人与机器能力比较时候，我有很多与作者不同的观点。关于数据能力方面，因为机器的数据处理能力比人类更优秀，所以机器比人类更强大。这是以机器在用“上等马”对阵人类的“下等马”，因此这是一个不公平的对决。换句话而言，如果用人类的“上等马”对阵机器的“下等马”又会如何？例如人类的感情或是思想。随后作者又提出”信息自由“，强调的是数据与数据之间的交换与流动，认为USA之所以强大就是因为信息自由。总感觉这一章节写的比较混乱。</p><p>\n</p><p>\r</p>",
+          "text": "<p><b>人工智能与大数据\n</b></p><p>那天我们谈到人工智能也谈到了《未来简史》，此前是粗读，这次又重拿书本细读一翻。我们在咖啡会中谈到一个结论，“机器可以更好地帮我们做选择。”这句话是正确的吗？我试问自己。机器可以替我们做更好的选择/更了解我们自己，可机器又是基于什么呢？是基于理性的分析，亦或是我日常生活的轨迹和大数据，由此来替我做更好地选择。机器决策与古时候的求神问卦/占卜似乎有异曲同工之妙，都在祈求一个神秘力量（在这里我姑且理解机器决策为一个黑箱般的神秘力量）替我们做出最好的决策。但问题是，我们真的能百分百完完全全相信黑箱的神秘魔力吗？机器无法理解人类的情绪不稳定性（应该是）。人类有感情有情绪，如果排除了这些因素外，机器能不能做出准确的判断。换句话而言，排除了感情因素，我们的决策就会更好吗？\n</p><p>当然我们咖啡会上一个很有意思的讨论点就是，机器会不会取代人类？我觉得这个问题很荒谬很神奇。我们会担心机器会取代人类，要征服地球，害怕人类对机器不利（这难道不是一种人类的心理吗？）机器没有感情，就没有野心，机器没有情绪，就不会害怕不会怕欺负，那为什么要害怕，要取代人类呢？没有情感与情绪，就没有动机，哪怕再聪明。这些都是我们人类心理在机器中的投射罢了。\n</p><p>最后，在重温未来简史中对于人与机器能力比较时候，我有很多与作者不同的观点。关于数据能力方面，因为机器的数据处理能力比人类更优秀，所以机器比人类更强大。这是以机器在用“上等马”对阵人类的“下等马”，因此这是一个不公平的对决。换句话而言，如果用人类的“上等马”对阵机器的“下等马”又会如何？例如人类的感情或是思想。随后作者又提出”信息自由“，强调的是数据与数据之间的交换与流动，认为USA之所以强大就是因为信息自由。总感觉这一章节写的比较混乱。</p><p>\n</p><p>\n</p>",
           "_tags": [
             "主题"
           ],
@@ -1405,14 +1436,58 @@
               "size": 0
             }
           },
-          "text1": "ADDRESS\n<br>湖北省武汉市华中科技大学韵苑",
-          "text2": "CONTACTS\n<br>Email: 824829880@qq.com\n<br>Wechat: ShinnyLuX \n<br>QQ: 824829880",
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "主题"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-20"
+          "_anchor": "contacts1-25"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Website Maker Description",
+        "title": "兴趣喜好",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "images/footer-logo.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>江苏省南京市南京大学仙林校区<br><br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: 824829880@qq.com<br>Wechat:ShinyLuX<br><br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-25"
         }
       ]
     }
